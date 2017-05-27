@@ -188,6 +188,7 @@ img.searchIcon{
 	background: rgb(245,147,202);
 }
 .commentSection{
+
 	display:inline;
 	width: 95%;
 }
@@ -199,10 +200,13 @@ img.searchIcon{
 	background: #E0469D;
 }
 #commentArea{
-	margin-left:35px;
-	width: 250px;
-	padding: 5px;
+	width: 935px;
 	background: #EC69B3;
+}
+#comments{
+	margin-left:35px;
+	width: 900px;
+	padding: 5px;
 }
 #commenter1{
 	position:relative;
@@ -214,19 +218,18 @@ img.searchIcon{
 	position:relative;
 	font-size: 15px;
 	text-align: right;
-	background: 
-	background: rgba(0,255,0,0.1)
+	background: linear-gradient(to bottom, rgba(255,0,0,0.1), rgba(255,0,0,0.3));
 }
 #commentInput{
-	margin-left:35px;
-	border:none;	
-	width:250px;
+	margin-left:40px;
+	width:925px;
 }
 #input{
-	height:60px;
+	height:20px;
 }
 textarea{
   padding : 10px;
+  left:0;
   width: 95%;
   height: 150px;
 }
