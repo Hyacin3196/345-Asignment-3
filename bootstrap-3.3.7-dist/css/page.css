@@ -1,10 +1,16 @@
 <style>
 
-a:link, a:visited, a:hover, a:active{
-    color: black; 
+a:link, a:visited{
+    color: blue; 
     background-color: transparent; 
     text-decoration: none;
 }
+a:hover, a:active{
+    color: green; 
+    background-color: transparent; 
+    text-decoration: none;
+}
+
 .leftBtn:link, .leftBtn:visited, .leftBtn:hover, .leftBtn:active{
     color: black; 
     background-color: transparent; 
@@ -145,11 +151,29 @@ img.searchIcon{
 	background: linear-gradient(to bottom, #F593CA, rgb(252,200,229));
 }
 .wrap{
-	
+	display:inline-block;
 }
-.left{
-	
+.leftCol{
+	float:left;
+	padding: 1%;
+	left:0;
+	width: 47.5%;
+	border-radius: 10px;
+	background: rgb(245,147,202);
 }
+.rightCol{
+	float:right;
+	padding: 1%;
+	width: 47.5%;
+	border-radius: 10px;
+	background: rgb(245,147,202);
+}
+.displayImg{
+	float: right;
+	height:150px;
+	width:150px;
+}
+
 .periodBlock{
 	
 }

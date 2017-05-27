@@ -43,49 +43,69 @@
 				<h1> Recent </h1>
 			</div>
 
-			<!--<div class='wrap'>
-				<div class='right'>
-					<p>some text goes here for auto width</p>
+			<div class="wrap">
+				<div class='leftCol'>
+					<a href="#">
+						<h1>Middle Ages</h1>
+					</a>
+					<img class="displayImg" src="images/content/middle ages.jpg" alt="middle ages"/>
+					<p>
+					Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem.
+					</p>
+					<p>
+					Ut enim ad minima veniam, quis nostrum exercitationem ullam corporis suscipit laboriosam, nisi ut aliquid ex ea commodi consequatur? Quis autem vel eum iure reprehenderit qui in ea voluptate velit esse quam nihil molestiae consequatur, vel illum qui dolorem eum fugiat quo voluptas nulla pariatur? At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi sint occaecati cupiditate non provident, similique sunt in culpa qui officia deserunt mollitia animi, id est laborum et dolorum fuga. Et harum quidem rerum facilis est et expedita distinctio.
+					</p>
 				</div>
-				<div class='left'>
-					<p>this takes up remaining space to the left</p>
-				</div>
-			</div>-->
-		</div>
 
-		<div class="left">
-			<a class="leftBtn" href="#">
-				<div class="leftBtn"> Recent </div>
-			</a>
-			<a class="leftBtn" href="#">
-				<div class="leftBtn"> Pages </div>
-			</a>
-			<div class="horizontalLine"/>
-			<a class="leftBtn" href="#">
-				<div class="leftBtn"> Assignments </div>
-			</a>
-			<a class="leftBtn" href="#">
-				<div class="leftBtn">Peer Assessment</div>
-			</a>
-			<div class="rightBorder">
+				<div class='rightCol'>
+					<a href="#">
+						<h1>The Renaissanse</h1>
+					</a>
+					<img class="displayImg" src="images/content/renaissance.jpg" alt="renaissance"/>
+					<p>
+					Nam libero tempore, cum soluta nobis est eligendi optio cumque nihil impedit quo minus id quod maxime placeat facere possimus, omnis voluptas assumenda est, omnis dolor repellendus. Temporibus autem quibusdam et aut officiis debitis aut rerum necessitatibus saepe eveniet ut et voluptates repudiandae sint et molestiae non recusandae. Itaque earum rerum hic tenetur a sapiente delectus, ut aut reiciendis voluptatibus maiores alias consequatur aut perferendis doloribus asperiores repellat.
+						<p>
+						</p>
+					Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem.
+					</p>
+				</div>
 			</div>
-		</div>
 
-		<div class="top">
-			<img src="images/Logo/Logo2.png" alt="Logo" usemap="logomap" style="width:200px;height:80px;margin-left:60px"/>
-			<map name="logomap">
-				<area shape="rect" coords="0,0,200,80" alt="Logo" href="https://www.w3schools.com/html/html_images.asp"/>
-			</map>
 
-			<div class="searchBar">
-				<a class="logo" href="sauce.html">
-					<img class="searchIcon" src="images/search-icon.png" alternate="search"/>
+			<div class="left">
+				<a class="leftBtn" href="sauce.html">
+					<div class="leftBtn"> Recent </div>
 				</a>
-				<input class="searchBar" type="text" placeholder="Search" style="color:black;"/>
+				<a class="leftBtn" href="pages.html">
+					<div class="leftBtn"> Pages </div>
+				</a>
+				<div class="horizontalLine"/>
+				<a class="leftBtn" href="assignment.html">
+					<div class="leftBtn"> Assignments </div>
+				</a>
+				<a class="leftBtn" href="peer assessment.html">
+					<div class="leftBtn">Peer Assessment</div>
+				</a>
+				<div class="rightBorder">
+				</div>
 			</div>
-			<div class="bottomBorder"/>
-		</div>
 
-	</body>
+			<div class="top">
+				<img src="images/Logo/Logo2.png" alt="Logo" usemap="logomap" style="width:200px;height:80px;margin-left:60px"/>
+				<map name="logomap">
+					<area shape="rect" coords="0,0,200,80" alt="Logo" href="https://www.w3schools.com/html/html_images.asp"/>
+				</map>
 
-</html>
+				<div class="searchBar">
+					<a class="logo" href="sauce.html">
+						<img class="searchIcon" src="images/search-icon.png" alternate="search"/>
+					</a>
+					<input class="searchBar" type="text" placeholder="Search" style="color:black;"/>
+				</div>
+				<div class="bottomBorder"/>
+			</div>
+
+		</body>
+
+	</html>
+	
