@@ -1,0 +1,145 @@
+<style>
+
+a:link, a:visited, a:hover, a:active{
+    color: black; 
+    background-color: transparent; 
+    text-decoration: none;
+}
+.leftBtn:link, .leftBtn:visited, .leftBtn:hover, .leftBtn:active{
+    color: black; 
+    background-color: transparent; 
+    text-decoration: none;
+}
+
+#horizontal-list li {
+		display: inline;
+}
+
+body{
+	margin:0;
+	padding:0;
+}
+
+div{
+	font-family="Times New Roman", cursive, sans-serif;
+}
+
+
+
+
+
+
+/*#############
+###Top Panel###
+###############*/
+.top {
+	height: 80px;
+	background: linear-gradient(to bottom, rgba(177,82,130,.75), rgba(211,124,168,0.75));
+}
+.topBottomBorder{
+	position:absolute;
+	height:15px;
+	top:80px;
+	width: 100vw;
+	background: linear-gradient(to bottom, rgba(0,0,0,.4), rgba(0,0,0,.20), rgba(0,0,0,.05), rgba(0,0,0,0));
+}
+img{
+	display:block;
+}
+
+/*SearchBar*/
+.searchBar{
+	position:absolute;
+	border-radius:5px;
+	top:40px;
+	height:30px;
+	left: 300px;
+	width: 380px;
+	background: rgba(141,48,95,0.2);
+}
+input.searchBar{
+	position:absolute;
+	border-radius:0px;
+	border: 0;
+	top: 0px;
+	left: 30px;
+	width: 350px;
+	background: rgba(0,0,0,0);
+	font-size:15px;
+}
+img.searchIcon{
+	position:relative;
+	left:5px;
+	top:5px;
+	height:20px;
+	width:20px;
+	opacity: 0.5;
+	filter:alpha(opacity=50);
+}img.searchIcon:hover{
+	opacity: 1;
+	filter:alpha(opacity=100);
+}
+
+
+
+
+/*##############
+###Left Panel###
+################*/
+.left{
+	position:absolute;
+	top: 80px;
+	bottom: 0;
+	width:200px;
+	background: linear-gradient(to bottom, rgba(196,93,151,0.8), rgba(220,140,185,.8));
+}
+.leftRightBorder{
+	position:absolute;
+	top:0px;
+	bottom: 0px;
+	left: 200px;
+	width: 10px;
+	background: linear-gradient(to right, rgba(0,0,0,0.5), rgba(0,0,0,.20), rgba(0,0,0,.05), rgba(0,0,0,0));
+}
+.leftBtn{
+	height:60px;
+	line-height: 60px;
+	text-align: center;
+	font-family:"Times New Roman", cursive, sans-serif;
+	font-size:20px;
+}
+.leftBtn:hover{
+	background: rgba(0,0,0,0.2);
+}
+.horizontalLine{
+	height:1px;
+	background: linear-gradient(to right, rgba(0,0,0,0), rgba(0,0,0,1), rgba(0,0,0,0));
+}
+
+
+
+
+
+
+
+/*##############
+###Main Panel###
+################*/
+.main{
+	position: absolute;
+	top: 80px;
+	bottom: 0;
+	left: 200px;
+	right: 0px;
+	padding-left: 20px;
+	padding-right: 20px;
+	overflow-y: scroll;
+	background: linear-gradient(to bottom, rgba(220,140,185,0.5), rgba(220,140,185,0.75));
+}
+.recentBlocks{
+	
+}
+.periodBlocks{
+	
+}
+</style>
