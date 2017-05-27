@@ -181,7 +181,54 @@ img.searchIcon{
 }
 
 .question{
-	
+	float:left;
+	padding: 1%;
+	left:0;
+	border-radius: 10px;
+	background: rgb(245,147,202);
+}
+.commentSection{
+	display:inline;
+	width: 95%;
+}
+.commentIcon{
+	float:left;
+	height: 35px;
+	width: 35px;
+	border-radius: 5px;
+	background: #E0469D;
+}
+#commentArea{
+	margin-left:35px;
+	width: 250px;
+	padding: 5px;
+	background: #EC69B3;
+}
+#commenter1{
+	position:relative;
+	font-size: 15px;
+	text-align: left;
+	background: linear-gradient(to bottom, rgba(0,0,255,0.1), rgba(0,0,255,0.3));
+}
+#commenter2{
+	position:relative;
+	font-size: 15px;
+	text-align: right;
+	background: 
+	background: rgba(0,255,0,0.1)
+}
+#commentInput{
+	margin-left:35px;
+	border:none;	
+	width:250px;
+}
+#input{
+	height:60px;
+}
+textarea{
+  padding : 10px;
+  width: 95%;
+  height: 150px;
 }
 
 

@@ -17,15 +17,12 @@
 		<link href="css/page.css" rel="stylesheet"/>
 		<!-- Custom CSS -->
 		<style>
-    body {
-        /*padding-top: 70px;*/
-        /* Required padding for .navbar-fixed-top. Remove if using .navbar-static-top. Change if height of navigation changes. */
-    }
 
 
 
 		</style>
 
+		
 		<!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
 		<!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
 		<!--[if lt IE 9]>
@@ -38,22 +35,46 @@
 	<body>
 
 		<div class="main">
-			<a href="#">Home</a>
+			<a href="#">Home</a> > 
+			<a href="#">Assessment</a>
 			<div class="blocks">
 				<h1> Assessment </h1>
 			</div>
 
 			<div class='question'>
-				<a href="#">
-					<h1>Case 1</h1>
-				</a>
+				<h1>Case 1</h1>
 				<img class="displayImg" src="images/content/Antonio_Vivaldi_portrait.jpg" alt="Antonio Vivaldi"/>
 				<p>
 					Nam libero tempore, cum soluta nobis est eligendi optio cumque nihil impedit quo minus id quod maxime placeat facere possimus, omnis voluptas assumenda est, omnis dolor repellendus. Temporibus autem quibusdam et aut officiis debitis aut rerum necessitatibus saepe eveniet ut et voluptates repudiandae sint et molestiae non recusandae. Itaque earum rerum hic tenetur a sapiente delectus, ut aut reiciendis voluptatibus maiores alias consequatur aut perferendis doloribus asperiores repellat.
 					<p>
 					</p>
-					Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem.
+					a) Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem.
 				</p>
+				<div class="commentSection">
+					<img class="commentIcon" src="images/comment icon.png" alt="CommentIcon"/>
+					<div id="commentArea">
+						<div id="commenter2">
+							<b>JasonBourne</b>
+							<br/>
+						lol thats wicked
+						</div>
+						<div id="commenter1">
+							<b> JasonBourne </b>
+							<br/>
+						I know
+						</div>
+					</div>
+					<div id="commentInput">
+						<textarea id="input">
+						</textarea>
+						<button id="append">Comment</button>
+					</div>
+				</div>
+
+				<textarea>
+				</textarea>
+				<div>
+				</div>
 			</div>
 		</div>
 
@@ -67,7 +88,7 @@
 			</a>
 			<div class="horizontalLine"/>
 			<a class="leftBtn" href="assessmentQ1.html">
-				<div class="leftBtn"> AssessmentQ1 </div>
+				<div class="leftBtn"> Assessment </div>
 			</a>
 			<div class="rightBorder">
 			</div>
@@ -87,7 +108,21 @@
 			</div>
 			<div class="bottomBorder"/>
 		</div>
+		
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>
+		<script src="js/scripts.js"></script>
+		<script>
+			$( "#append" ).click( function() {
+				$( "#commentArea" ).append( function() {
+					var out = "<div id=\"commenter1\">"+
+					"<b>Jason Bourne</b><br/>"+
+					$( "#input" ).val()+"</div>";
+					$("#commentField").val('');
+					return out;
+				});
+			});  
 
+		</script>
 	</body>
 
 </html>
