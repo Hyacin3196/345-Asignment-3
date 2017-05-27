@@ -5,8 +5,13 @@ a:link, a:visited{
     background-color: transparent; 
     text-decoration: none;
 }
-a:hover, a:active{
+a:hover{
     color: green; 
+    background-color: transparent; 
+    text-decoration: none;
+}
+a:active{
+    color: red; 
     background-color: transparent; 
     text-decoration: none;
 }
@@ -148,8 +153,14 @@ img.searchIcon{
 	padding-left: 20px;
 	padding-right: 20px;
 	overflow-y: scroll;
-	background: linear-gradient(to bottom, #F593CA, rgb(252,200,229));
+	background: linear-gradient(to bottom, #FCC8E5, #F593CA);
 }
+.displayImg{
+	float: right;
+	height:150px;
+	width:150px;
+}
+/*Pages Section*/
 .wrap{
 	display:inline-block;
 }
@@ -168,11 +179,12 @@ img.searchIcon{
 	border-radius: 10px;
 	background: rgb(245,147,202);
 }
-.displayImg{
-	float: right;
-	height:150px;
-	width:150px;
+
+.question{
+	
 }
+
+
 
 .periodBlock{
 	

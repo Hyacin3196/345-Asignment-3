@@ -1,10 +1,21 @@
 <style>
 
-a:link, a:visited, a:hover, a:active{
-    color: black; 
+a:link, a:visited{
+    color: blue; 
     background-color: transparent; 
     text-decoration: none;
 }
+a:hover{
+    color: green; 
+    background-color: transparent; 
+    text-decoration: none;
+}
+a:active{
+    color: red; 
+    background-color: transparent; 
+    text-decoration: none;
+}
+
 .leftBtn:link, .leftBtn:visited, .leftBtn:hover, .leftBtn:active{
     color: black; 
     background-color: transparent; 
@@ -142,7 +153,7 @@ img.searchIcon{
 	padding-left: 20px;
 	padding-right: 20px;
 	overflow-y: scroll;
-	background: linear-gradient(to bottom, #F593CA, rgb(252,200,229));
+	background: linear-gradient(to bottom, #FCC8E5, #F593CA);
 }
 .wrap{
 	display:inline-block;
