@@ -33,14 +33,18 @@ div{
 ###Top Panel###
 ###############*/
 .top {
-	height: 80px;
-	background: linear-gradient(to bottom, rgba(177,82,130,.75), rgba(211,124,168,0.75));
-}
-.topBottomBorder{
+	clear:both;
 	position:fixed;
+	top:0;
+	width:100vw;
+	height: 80px;
+	background: linear-gradient(to bottom, rgba(210,38,136,1), rgba(245,147,202,1));
+}
+.bottomBorder{
+	position: absolute;
 	height:15px;
-	top:80px;
-	width: 100vw;
+	top:100%;
+	width: 100%;
 	background: linear-gradient(to bottom, rgba(0,0,0,.4), rgba(0,0,0,.20), rgba(0,0,0,.05), rgba(0,0,0,0));
 }
 img{
@@ -87,26 +91,28 @@ img.searchIcon{
 ###Left Panel###
 ################*/
 .left{
+	clear:both;
 	position:fixed;
 	top: 80px;
 	bottom: 0;
 	left:0;
 	width:200px;
-	background: linear-gradient(to bottom, rgba(196,93,151,0.8), rgba(220,140,185,.8));
+	background: linear-gradient(to bottom, rgb(236,105,179), rgb(245,147,202));
 }
-.leftRightBorder{
-	position:fixed;
-	top:80px;
-	bottom: 0px;
-	left: 200px;
+.rightBorder{
+	position:absolute;
+	top:0;
+	bottom: 0;
+	left: 100%;
 	width: 10px;
-	background: linear-gradient(to right, rgba(0,0,0,0.5), rgba(0,0,0,.20), rgba(0,0,0,.05), rgba(0,0,0,0));
+	background: linear-gradient(to right,rgba(0,0,0,.4), rgba(0,0,0,.20), rgba(0,0,0,.05), rgba(0,0,0,0));
 }
 .leftBtn{
 	height:60px;
 	line-height: 60px;
 	text-align: center;
 	font-family:"Times New Roman", cursive, sans-serif;
+	font-weight: bold;
 	font-size:20px;
 }
 .leftBtn:hover{
@@ -127,6 +133,7 @@ img.searchIcon{
 ###Main Panel###
 ################*/
 .main{
+	clear:both;
 	position: fixed;
 	top: 80px;
 	bottom: 0;
@@ -135,12 +142,15 @@ img.searchIcon{
 	padding-left: 20px;
 	padding-right: 20px;
 	overflow-y: scroll;
-	background: linear-gradient(to bottom, rgba(220,140,185,0.5), rgba(220,140,185,0.75));
+	background: linear-gradient(to bottom, #F593CA, rgb(252,200,229));
 }
-.recentBlocks{
+.wrap{
 	
 }
-.periodBlocks{
+.left{
+	
+}
+.periodBlock{
 	
 }
 </style>
