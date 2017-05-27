@@ -200,12 +200,16 @@ img.searchIcon{
 	background: #E0469D;
 }
 #commentArea{
-	width: 935px;
+	width: 660px;
+	background: #EC69B3;
+}
+#commentArea1{
+	width: 660px;
 	background: #EC69B3;
 }
 #comments{
 	margin-left:35px;
-	width: 900px;
+	width: 600px;
 	padding: 5px;
 }
 #commenter1{
@@ -222,7 +226,7 @@ img.searchIcon{
 }
 #commentInput{
 	margin-left:40px;
-	width:925px;
+	width:625px;
 }
 #input{
 	height:20px;
