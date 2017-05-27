@@ -71,6 +71,7 @@
 
 
 		<div class="main">
+			<a href="#">home</a> > 
 			<a href="#">home</a>
 			<div class="recentBlocks">
 				<h1> Recent </h1>

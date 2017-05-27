@@ -37,7 +37,7 @@ div{
 	background: linear-gradient(to bottom, rgba(177,82,130,.75), rgba(211,124,168,0.75));
 }
 .topBottomBorder{
-	position:fixed;
+	position:absolute;
 	height:15px;
 	top:80px;
 	width: 100vw;
@@ -49,7 +49,7 @@ img{
 
 /*SearchBar*/
 .searchBar{
-	position:fixed;
+	position:absolute;
 	border-radius:5px;
 	top:40px;
 	height:30px;
@@ -87,7 +87,7 @@ img.searchIcon{
 ###Left Panel###
 ################*/
 .left{
-	position:fixed;
+	position:absolute;
 	top: 80px;
 	bottom: 0;
 	left:0;
@@ -95,8 +95,8 @@ img.searchIcon{
 	background: linear-gradient(to bottom, rgba(196,93,151,0.8), rgba(220,140,185,.8));
 }
 .leftRightBorder{
-	position:fixed;
-	top:80px;
+	position:absolute;
+	top:0px;
 	bottom: 0px;
 	left: 200px;
 	width: 10px;
@@ -127,11 +127,11 @@ img.searchIcon{
 ###Main Panel###
 ################*/
 .main{
-	position: fixed;
+	position: absolute;
 	top: 80px;
 	bottom: 0;
 	left: 200px;
-	right:0;
+	right: 0px;
 	padding-left: 20px;
 	padding-right: 20px;
 	overflow-y: scroll;

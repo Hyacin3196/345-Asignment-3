@@ -37,7 +37,7 @@ div{
 	background: linear-gradient(to bottom, rgba(177,82,130,.75), rgba(211,124,168,0.75));
 }
 .topBottomBorder{
-	position:fixed;
+	position:absolute;
 	height:15px;
 	top:80px;
 	width: 100vw;
@@ -96,7 +96,7 @@ img.searchIcon{
 }
 .leftRightBorder{
 	position:fixed;
-	top:80px;
+	top:0px;
 	bottom: 0px;
 	left: 200px;
 	width: 10px;
