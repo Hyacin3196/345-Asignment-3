@@ -155,6 +155,12 @@ img.searchIcon{
 	overflow-y: scroll;
 	background: linear-gradient(to bottom, #FCC8E5, #F593CA);
 }
+.displayImg{
+	float: right;
+	height:150px;
+	width:150px;
+}
+/*Pages Section*/
 .wrap{
 	display:inline-block;
 }
@@ -173,11 +179,12 @@ img.searchIcon{
 	border-radius: 10px;
 	background: rgb(245,147,202);
 }
-.displayImg{
-	float: right;
-	height:150px;
-	width:150px;
+
+.question{
+	
 }
+
+
 
 .periodBlock{
 	

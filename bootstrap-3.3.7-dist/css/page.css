@@ -181,7 +181,11 @@ img.searchIcon{
 }
 
 .question{
-	
+	float:left;
+	padding: 1%;
+	left:0;
+	border-radius: 10px;
+	background: rgb(245,147,202);
 }
 
 
