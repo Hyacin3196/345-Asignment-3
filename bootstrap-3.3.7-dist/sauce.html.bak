@@ -38,7 +38,7 @@
 	<body>
 
 		<div class="main">
-			<a href="sauce.html"><p>Home</p></a>
+			<a href="sauce.html">Home</a>
 			<div class="blocks">
 				<h1> Recent </h1>
 			</div>

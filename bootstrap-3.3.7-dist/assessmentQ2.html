@@ -1,0 +1,181 @@
+
+<!DOCTYPE html>
+<html lang="en">
+
+	<head>
+
+		<meta charset="utf-8"/>
+		<meta http-equiv="X-UA-Compatible" content="IE=edge"/>
+		<meta name="viewport" content="width=device-width, initial-scale=1"/>
+		<meta name="description" content=""/>
+		<meta name="author" content="">
+
+			<title>Assessments</title/>
+
+
+		<!-- Custom External CSS -->
+		<link href="css/page.css" rel="stylesheet"/>
+		<!-- Custom CSS -->
+		<style>
+
+
+
+		</style>
+
+		
+		<!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+		<!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+		<!--[if lt IE 9]>
+        <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+        <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+    <![endif]-->
+
+	</head>
+
+	<body>
+
+		<div class="main">
+			
+			<p>
+			<a href="sauce.html">Home</a> > 
+			<a href="assessment.html">Assessment</a> >
+			<a href="AssessmentQ1.html">Quiz Attempt</a>
+			</p>
+			
+			<p>Your User Name's attempt</p>
+			<div class="blocks">
+				<h1> Assessment </h1>
+			</div>
+
+			<div class='question'>
+				<h1>Case 2</h1>
+				<img class="displayImg" src="images/content/Johann_Sebastian_Bach_portrait.jpg" alt="Johann Sebastian Bach"/>
+				<p>
+					Li Europan lingues es membres del sam familie. Lor separat existentie es un myth. Por scientie, musica, sport etc, litot Europa usa li sam vocabular.<br/>
+
+					Li lingues differe solmen in li grammatica, li pronunciation e li plu commun vocabules. Omnicos directe al desirabilite de un nov lingua franca: On refusa continuar payar custosi traductores.<br/>
+
+					At solmen va esser necessi far uniform grammatica, pronunciation e plu sommun paroles. Ma quande lingues coalesce, li grammatica del resultant lingue es plu simplic e regulari quam ti del coalescent lingues.<br/>
+
+					Li nov lingua franca va esser plu simplic e regulari quam li existent Europan lingues. It va esser tam simplic quam Occidental in fact, it va esser Occidental.<br/>
+</p>
+<p>
+					a) A un Angleso it va semblar un simplificat Angles, quam un skeptic Cambridge amico dit me que Occidental es. Li Europan lingues es membres del sam familie. Lor separat existentie es un myth.
+				</p>
+
+				<textarea>
+				</textarea>
+				
+				<p>
+					b) Ma quande lingues coalesce, li grammatica del resultant lingue es plu simplic e regulari quam ti del coalescent lingues. Li nov lingua franca va esser plu simplic e regulari quam li existent Europan lingues.
+				</p>
+
+				<textarea>
+				</textarea>
+				
+				<p>
+					c) A un Angleso it va semblar un simplificat Angles, quam un skeptic Cambridge amico dit me que Occidental es. Li Europan lingues es membres del sam familie. Lor separat existentie es un myth.<br/>
+
+Por scientie, musica, sport etc, litot Europa usa li sam vocabular. Li lingues differe solmen in li grammatica, li pronunciation e li plu commun vocabules.
+
+				<textarea>
+				</textarea>
+				
+				<a class="centerBtn" href="assessment.html">
+					<div class="centerBtn"> <p>Finish</p> </div>
+				</a>
+			</div>
+		</div>
+
+
+		<div class="left">
+			<a class="leftBtn" href="sauce.html">
+				<div class="leftBtn"> Recent </div>
+			</a>
+			<a class="leftBtn" href="pages.html">
+				<div class="leftBtn"> Pages </div>
+			</a>
+			<div class="horizontalLine"/>
+			<a class="leftBtn" href="assessment.html">
+				<div class="leftBtn"> Assessment </div>
+			</a>
+			<div class="rightBorder">
+			</div>
+		</div>
+
+		<div class="top">
+			<img src="images/Logo/Logo2.png" alt="Logo" usemap="logomap" style="width:200px;height:80px;margin-left:60px"/>
+			<map name="logomap">
+				<area shape="rect" coords="0,0,200,80" alt="Logo" href="sauce.html"/>
+			</map>
+
+			<div class="searchBar">
+				<a class="logo" href="sauce.html">
+					<img class="searchIcon" src="images/search-icon.png" alternate="search"/>
+				</a>
+				<input class="searchBar" type="text" placeholder="Search" style="color:black;"/>
+			</div>
+			<div class="bottomBorder"/>
+		</div>
+		
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>
+		<script src="js/scripts.js"></script>
+		<script>
+			$( "#append1" ).click( function() {
+				$( "#comments1" ).append( function() {
+					var out = "<div id=\"commenter1\">"+
+					"<b>Your User Name</b><br/>"+
+					$( "#input1" ).val()+"</div>";
+					$("#input1").val('');
+					return out;
+				});
+			});  
+			
+			$( "#append2" ).click( function() {
+				$( "#comments2" ).append( function() {
+					var out = "<div id=\"commenter1\">"+
+					"<b>Your User Name</b><br/>"+
+					$( "#input2" ).val()+"</div>";
+					$("#input2").val('');
+					return out;
+				});
+			});  
+			
+			$( "#append3" ).click( function() {
+				$( "#comments3" ).append( function() {
+					var out = "<div id=\"commenter1\">"+
+					"<b>Your User Name</b><br/>"+
+					$( "#input3" ).val()+"</div>";
+					$("#input3").val('');
+					return out;
+				});
+			});  
+
+			function toggleComments1() {
+				var x = document.getElementById('commentArea1');
+				if (x.style.display === 'none') {
+					x.style.display = 'block';
+				} else {
+					x.style.display = 'none';
+				}
+			}
+			function toggleComments2() {
+				var x = document.getElementById('commentArea2');
+				if (x.style.display === 'none') {
+					x.style.display = 'block';
+				} else {
+					x.style.display = 'none';
+				}
+			}
+			function toggleComments3() {
+				var x = document.getElementById('commentArea3');
+				if (x.style.display === 'none') {
+					x.style.display = 'block';
+				} else {
+					x.style.display = 'none';
+				}
+			}
+		</script>
+	</body>
+
+</html>

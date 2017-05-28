@@ -183,7 +183,7 @@ img.searchIcon{
 /*Start Assessment*/
 .start{
 	float:left;
-	padding: 1%;
+	padding: 5%;
 	width: 80%;
 	left:0;
 	border-radius: 10px;
@@ -235,28 +235,12 @@ table, th, td{
 	border-radius: 5px;
 	background: #E0469D;
 }
-#commentArea{
+#commentArea1,#commentArea2,#commentArea3{
 	width: 660px;
 	width: 50%;
 	background: #EC69B3;
 }
-#commentArea1{
-	width: 660px;
-	width: 50%;
-	background: #EC69B3;
-}
-#commentArea2{
-	width: 660px;
-	width: 50%;
-	background: #EC69B3;
-}
-#comments1{
-	margin-left:35px;
-	width: 610px;
-	width: 90%;
-	padding: 5px;
-}
-#comments2{
+#comments1,#comments2,#comments3{
 	margin-left:35px;
 	width: 610px;
 	width: 90%;
@@ -279,7 +263,7 @@ table, th, td{
 	width:625px;
 	width: 90%;
 }
-#input1,#input2{
+#input1,#input2,#input3{
 	height:20px;
 }
 textarea{

@@ -67,7 +67,7 @@
 
 				<textarea>
 				</textarea>
-				<a class="centerBtn" href="assessmentQ1.html">
+				<a class="centerBtn" href="assessmentQ2.html">
 					<div class="centerBtn"> <p>Next</p> </div>
 				</a>
 			</div>
@@ -107,32 +107,6 @@
 		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>
 		<script src="js/scripts.js"></script>
 		<script>
-			$( "#append" ).click( function() {
-				$( "#comments" ).append( function() {
-					var out = "<div id=\"commenter1\">"+
-					"<b>Your User Name</b><br/>"+
-					$( "#input" ).val()+"</div>";
-					$("#input").val('');
-					return out;
-				});
-			});  
-
-			function toggleComments() {
-				var x = document.getElementById('commentArea');
-				if (x.style.display === 'none') {
-					x.style.display = 'block';
-				} else {
-					x.style.display = 'none';
-				}
-			}
-			function toggleComments1() {
-				var x = document.getElementById('commentArea1');
-				if (x.style.display === 'none') {
-					x.style.display = 'block';
-				} else {
-					x.style.display = 'none';
-				}
-			}
 		</script>
 	</body>
 

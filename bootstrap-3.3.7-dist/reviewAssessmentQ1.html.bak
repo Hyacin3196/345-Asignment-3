@@ -59,6 +59,11 @@
 					<div id="commentArea1">
 					<div id="comments1">
 						
+						<div id="commenter2">
+							<b>Jason Bourne</b>
+							<br/>
+							This is a comment about your answer
+						</div>
 					</div>
 					<div id="commentInput">
 						<textarea id="input1">
@@ -81,7 +86,11 @@
 					<img class="commentIcon" src="images/comment icon.png" alt="CommentIcon" onclick="toggleComments2()"/>
 					<div id="commentArea2">
 						<div id="comments2">
-							
+						<div id="commenter2">
+							<b>Jason Bourne</b>
+							<br/>
+							This is a comment about what you wrote, pls reply
+						</div>
 						</div>
 						<div id="commentInput">
 							<textarea id="input2">
@@ -94,7 +103,7 @@
 				<textarea>Li Europan lingues es membres del sam familie. Lor separat existentie es un myth. Por scientie, musica, sport etc, litot Europa usa li sam vocabular. Li lingues differe solmen in li grammatica, li pronunciation e li plu commun vocabules.
 				</textarea>
 				
-				<a class="centerBtn" href="assessmentQ1.html">
+				<a class="centerBtn" href="reviewAssessmentQ2.html">
 					<div class="centerBtn"> <p>Next</p> </div>
 				</a>
 			</div>

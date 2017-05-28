@@ -36,11 +36,13 @@
 
 		<div class="main">
 			
+			<p>
 			<a href="sauce.html">Home</a> > 
 			<a href="assessment.html">Assessment</a> >
 			<a href="peerAssessmentQ1.html">Peer Review</a>
+			</p>
 			
-			<p>Your User Name's attempt</p>
+			<p>Jason Bourne's attempt</p>
 			<div class="blocks">
 				<h1> Assessment </h1>
 			</div>
@@ -56,7 +58,7 @@
 				</p>
 				<div class="commentSection">
 					<img class="commentIcon" src="images/comment icon.png" alt="CommentIcon" onclick="toggleComments1()"/>
-					<div id="commentArea">
+					<div id="commentArea1">
 					<div id="comments1">
 					</div>
 					<div id="commentInput">
@@ -92,7 +94,7 @@
 				<textarea>Li Europan lingues es membres del sam familie. Lor separat existentie es un myth. Por scientie, musica, sport etc, litot Europa usa li sam vocabular. Li lingues differe solmen in li grammatica, li pronunciation e li plu commun vocabules.
 				</textarea>
 				
-				<a class="centerBtn" href="assessmentQ1.html">
+				<a class="centerBtn" href="peerAssessmentQ2.html">
 					<div class="centerBtn"> <p>Next</p> </div>
 				</a>
 			</div>

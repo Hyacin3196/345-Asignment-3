@@ -183,7 +183,7 @@ img.searchIcon{
 /*Start Assessment*/
 .start{
 	float:left;
-	padding: 5%;
+	padding: 1%;
 	width: 80%;
 	left:0;
 	border-radius: 10px;
@@ -217,7 +217,7 @@ table, th, td{
 /*Peer Assessment*/
 .question{
 	float:left;
-	padding: 5%;
+	padding: 1%;
 	width: 80%;
 	left:0;
 	border-radius: 10px;
