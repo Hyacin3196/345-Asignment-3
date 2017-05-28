@@ -55,19 +55,14 @@
 					a) Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem.
 				</p>
 				<div class="commentSection">
-					<img class="commentIcon" src="images/comment icon.png" alt="CommentIcon" onclick="toggleComments()"/>
-					<div id="commentArea">
-					<div id="comments">
-						<div id="commenter2">
-							<b>Jason Bourne</b>
-							<br/>
-							this is a comment, pls reply
-						</div>
+					<img class="commentIcon" src="images/comment icon.png" alt="CommentIcon" onclick="toggleComments1()"/>
+					<div id="commentArea1">
+					<div id="comments1">
 					</div>
 					<div id="commentInput">
-						<textarea id="input">
+						<textarea id="input1">
 						</textarea>
-						<button id="append">Comment</button>
+						<button id="append1">Comment</button>
 					</div>
 					</div>
 				</div>
@@ -82,19 +77,14 @@
 					Nam libero tempore, cum soluta nobis est eligendi optio cumque nihil impedit quo minus id quod maxime placeat facere possimus, omnis voluptas assumenda est, omnis dolor repellendus. Temporibus autem quibusdam et aut officiis debitis aut rerum necessitatibus saepe eveniet ut et voluptates repudiandae sint et molestiae non recusandae. Itaque earum rerum hic tenetur a sapiente delectus, ut aut reiciendis voluptatibus maiores alias consequatur aut perferendis doloribus asperiores repellat. Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo.
 				</p>
 				<div class="commentSection">
-					<img class="commentIcon" src="images/comment icon.png" alt="CommentIcon" onclick="toggleComments1()"/>
-					<div id="commentArea1">
-					<div id="comments">
-						<div id="commenter2">
-							<b>Jason Bourne</b>
-							<br/>
-							I like my comments
-						</div>
+					<img class="commentIcon" src="images/comment icon.png" alt="CommentIcon" onclick="toggleComments2()"/>
+					<div id="commentArea2">
+					<div id="comments2">
 					</div>
 					<div id="commentInput">
-						<textarea id="input">
+						<textarea id="input2">
 						</textarea>
-						<button id="append">Comment</button>
+						<button id="append2">Comment</button>
 					</div>
 					</div>
 				</div>
@@ -117,7 +107,7 @@
 				<div class="leftBtn"> Pages </div>
 			</a>
 			<div class="horizontalLine"/>
-			<a class="leftBtn" href="assessmentQ1.html">
+			<a class="leftBtn" href="assessment.html">
 				<div class="leftBtn"> Assessment </div>
 			</a>
 			<div class="rightBorder">
@@ -142,26 +132,53 @@
 		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>
 		<script src="js/scripts.js"></script>
 		<script>
-			$( "#append" ).click( function() {
-				$( "#comments" ).append( function() {
+			$( "#append1" ).click( function() {
+				$( "#comments1" ).append( function() {
 					var out = "<div id=\"commenter1\">"+
 					"<b>Your User Name</b><br/>"+
-					$( "#input" ).val()+"</div>";
-					$("#input").val('');
+					$( "#input1" ).val()+"</div>";
+					$("#input1").val('');
 					return out;
 				});
 			});  
-
-			function toggleComments() {
-				var x = document.getElementById('commentArea');
+			
+			$( "#append2" ).click( function() {
+				$( "#comments2" ).append( function() {
+					var out = "<div id=\"commenter1\">"+
+					"<b>Your User Name</b><br/>"+
+					$( "#input2" ).val()+"</div>";
+					$("#input2").val('');
+					return out;
+				});
+			});  
+			
+			$( "#append3" ).click( function() {
+				$( "#comments3" ).append( function() {
+					var out = "<div id=\"commenter1\">"+
+					"<b>Your User Name</b><br/>"+
+					$( "#input3" ).val()+"</div>";
+					$("#input3").val('');
+					return out;
+				});
+			});  
+			function toggleComments1() {
+				var x = document.getElementById('commentArea1');
 				if (x.style.display === 'none') {
 					x.style.display = 'block';
 				} else {
 					x.style.display = 'none';
 				}
 			}
-			function toggleComments1() {
-				var x = document.getElementById('commentArea1');
+			function toggleComments2() {
+				var x = document.getElementById('commentArea2');
+				if (x.style.display === 'none') {
+					x.style.display = 'block';
+				} else {
+					x.style.display = 'none';
+				}
+			}
+			function toggleComments2() {
+				var x = document.getElementById('commentArea3');
 				if (x.style.display === 'none') {
 					x.style.display = 'block';
 				} else {

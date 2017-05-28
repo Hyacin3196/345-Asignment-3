@@ -59,11 +59,6 @@
 					<div id="commentArea1">
 					<div id="comments1">
 						
-						<div id="commenter2">
-							<b>Jason Bourne</b>
-							<br/>
-							I like my comments
-						</div>
 					</div>
 					<div id="commentInput">
 						<textarea id="input1">
@@ -86,11 +81,7 @@
 					<img class="commentIcon" src="images/comment icon.png" alt="CommentIcon" onclick="toggleComments2()"/>
 					<div id="commentArea2">
 						<div id="comments2">
-						<div id="commenter2">
-							<b>Jason Bourne</b>
-							<br/>
-							this is a comment, pls reply
-						</div>
+							
 						</div>
 						<div id="commentInput">
 							<textarea id="input2">

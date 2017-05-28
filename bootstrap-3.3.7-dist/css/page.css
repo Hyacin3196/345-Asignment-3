@@ -235,22 +235,12 @@ table, th, td{
 	border-radius: 5px;
 	background: #E0469D;
 }
-#commentArea{
+#commentArea1,#commentArea2,#commentArea3{
 	width: 660px;
 	width: 50%;
 	background: #EC69B3;
 }
-#commentArea1{
-	width: 660px;
-	width: 50%;
-	background: #EC69B3;
-}
-#commentArea2{
-	width: 660px;
-	width: 50%;
-	background: #EC69B3;
-}
-#comments{
+#comments1,#comments2,#comments3{
 	margin-left:35px;
 	width: 610px;
 	width: 90%;
@@ -273,7 +263,7 @@ table, th, td{
 	width:625px;
 	width: 90%;
 }
-#input{
+#input1,#input2,#input3{
 	height:20px;
 }
 textarea{

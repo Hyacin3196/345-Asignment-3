@@ -157,8 +157,8 @@ img.searchIcon{
 }
 .displayImg{
 	float: right;
-	height:200px;
-	width:200px;
+	height:150px;
+	width:150px;
 }
 /*Pages Section*/
 .wrap{
@@ -250,7 +250,13 @@ table, th, td{
 	width: 50%;
 	background: #EC69B3;
 }
-#comments{
+#comments1{
+	margin-left:35px;
+	width: 610px;
+	width: 90%;
+	padding: 5px;
+}
+#comments2{
 	margin-left:35px;
 	width: 610px;
 	width: 90%;
@@ -273,7 +279,7 @@ table, th, td{
 	width:625px;
 	width: 90%;
 }
-#input{
+#input1,#input2{
 	height:20px;
 }
 textarea{
