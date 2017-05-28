@@ -157,8 +157,8 @@ img.searchIcon{
 }
 .displayImg{
 	float: right;
-	height:150px;
-	width:150px;
+	height:200px;
+	width:200px;
 }
 /*Pages Section*/
 .wrap{
@@ -180,6 +180,41 @@ img.searchIcon{
 	background: rgb(245,147,202);
 }
 
+/*Start Assessment*/
+.start{
+	float:left;
+	padding: 1%;
+	width: 80%;
+	left:0;
+	border-radius: 10px;
+	background: rgb(245,147,202);
+}
+.centerBtn{
+	left: 300px;
+	height:60px;
+	line-height: 60px;
+	text-align: center;
+	font-family:"Times New Roman", cursive, sans-serif;
+	font-weight: bold;
+	font-size:20px;
+}
+.centerBtn:hover{
+	background: rgba(0,0,0,0.2);
+}
+.centerBtn:active{
+	background: rgba(0,0,0,0.5);
+}
+table{
+	width:100%;
+}
+table, th, td{
+	border:1px solid black;
+	border-collapse:collapse;
+}
+
+/*Answer Assessment*/
+
+/*Peer Assessment*/
 .question{
 	float:left;
 	padding: 1%;
@@ -206,6 +241,11 @@ img.searchIcon{
 	background: #EC69B3;
 }
 #commentArea1{
+	width: 660px;
+	width: 50%;
+	background: #EC69B3;
+}
+#commentArea2{
 	width: 660px;
 	width: 50%;
 	background: #EC69B3;

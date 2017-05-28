@@ -37,6 +37,8 @@
 		<div class="main">
 			<a href="#">Home</a> > 
 			<a href="#">Assessment</a>
+			
+			<p>Your User Name's attempt</p>
 			<div class="blocks">
 				<h1> Assessment </h1>
 			</div>
@@ -46,27 +48,10 @@
 				<img class="displayImg" src="images/content/Antonio_Vivaldi_portrait.jpg" alt="Antonio Vivaldi"/>
 				<p>
 					Nam libero tempore, cum soluta nobis est eligendi optio cumque nihil impedit quo minus id quod maxime placeat facere possimus, omnis voluptas assumenda est, omnis dolor repellendus. Temporibus autem quibusdam et aut officiis debitis aut rerum necessitatibus saepe eveniet ut et voluptates repudiandae sint et molestiae non recusandae. Itaque earum rerum hic tenetur a sapiente delectus, ut aut reiciendis voluptatibus maiores alias consequatur aut perferendis doloribus asperiores repellat.
-					<p>
 					</p>
+					<p>
 					a) Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem.
 				</p>
-				<div class="commentSection">
-					<img class="commentIcon" src="images/comment icon.png" alt="CommentIcon" onclick="toggleComments()"/>
-					<div id="commentArea">
-					<div id="comments">
-						<div id="commenter2">
-							<b>Jason Bourne</b>
-							<br/>
-							this is a comment, pls reply
-						</div>
-					</div>
-					<div id="commentInput">
-						<textarea id="input">
-						</textarea>
-						<button id="append">Comment</button>
-					</div>
-					</div>
-				</div>
 
 				<textarea>Omnicos directe al desirabilite de un nov lingua franca: On refusa continuar payar custosi traductores. At solmen va esser necessi far uniform grammatica, pronunciation e plu sommun paroles. Ma quande lingues coalesce, li grammatica del resultant lingue es plu simplic e regulari quam ti del coalescent lingues.
 				</textarea>
@@ -77,23 +62,6 @@
 					<p>
 					Nam libero tempore, cum soluta nobis est eligendi optio cumque nihil impedit quo minus id quod maxime placeat facere possimus, omnis voluptas assumenda est, omnis dolor repellendus. Temporibus autem quibusdam et aut officiis debitis aut rerum necessitatibus saepe eveniet ut et voluptates repudiandae sint et molestiae non recusandae. Itaque earum rerum hic tenetur a sapiente delectus, ut aut reiciendis voluptatibus maiores alias consequatur aut perferendis doloribus asperiores repellat. Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo.
 				</p>
-				<div class="commentSection">
-					<img class="commentIcon" src="images/comment icon.png" alt="CommentIcon" onclick="toggleComments1()"/>
-					<div id="commentArea1">
-					<div id="comments">
-						<div id="commenter2">
-							<b>Jason Bourne</b>
-							<br/>
-							I like my comments
-						</div>
-					</div>
-					<div id="commentInput">
-						<textarea id="input">
-						</textarea>
-						<button id="append">Comment</button>
-					</div>
-					</div>
-				</div>
 
 				<textarea>Li Europan lingues es membres del sam familie. Lor separat existentie es un myth. Por scientie, musica, sport etc, litot Europa usa li sam vocabular. Li lingues differe solmen in li grammatica, li pronunciation e li plu commun vocabules.
 				</textarea>
@@ -119,7 +87,7 @@
 		<div class="top">
 			<img src="images/Logo/Logo2.png" alt="Logo" usemap="logomap" style="width:200px;height:80px;margin-left:60px"/>
 			<map name="logomap">
-				<area shape="rect" coords="0,0,200,80" alt="Logo" href="https://www.w3schools.com/html/html_images.asp"/>
+				<area shape="rect" coords="0,0,200,80" alt="Logo" href="sauce.html"/>
 			</map>
 
 			<div class="searchBar">
@@ -137,7 +105,7 @@
 			$( "#append" ).click( function() {
 				$( "#comments" ).append( function() {
 					var out = "<div id=\"commenter1\">"+
-					"<b>User Name</b><br/>"+
+					"<b>Your User Name</b><br/>"+
 					$( "#input" ).val()+"</div>";
 					$("#input").val('');
 					return out;
