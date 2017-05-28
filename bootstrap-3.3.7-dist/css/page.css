@@ -49,7 +49,7 @@ div{
 	top:0;
 	width:100vw;
 	height: 80px;
-	background: linear-gradient(to bottom, rgba(210,38,136,1), rgba(245,147,202,1));
+	background: linear-gradient(to bottom, #EC69B3, #F593CA);
 }
 .bottomBorder{
 	position: absolute;
@@ -108,7 +108,7 @@ img.searchIcon{
 	bottom: 0;
 	left:0;
 	width:200px;
-	background: linear-gradient(to bottom, rgb(236,105,179), rgb(245,147,202));
+	background: linear-gradient(to bottom, #F593CA, #FCC8E5);
 }
 .rightBorder{
 	position:absolute;
@@ -153,7 +153,7 @@ img.searchIcon{
 	padding-left: 20px;
 	padding-right: 20px;
 	overflow-y: scroll;
-	background: linear-gradient(to bottom, #FCC8E5, #F593CA);
+	background: linear-gradient(to bottom, #FCC8E5, #FCC8E5);
 }
 .displayImg{
 	float: right;
@@ -186,14 +186,15 @@ img.searchIcon{
 	padding: 5%;
 	width: 80%;
 	left:0;
+	font-size:20px;
 	border-radius: 10px;
-	background: rgb(245,147,202);
+	background: linear-gradient(to bottom, #F593CA, #FCC8E5);
 }
 .centerBtn{
 	height:60px;
 	line-height: 60px;
 	text-align: center;
-	font-family:"Times New Roman", cursive, sans-serif;
+	font-family:"Times New Roman";
 	font-weight: bold;
 	font-size:20px;
 	background: rgba(0,0,0,0.1);
@@ -220,8 +221,9 @@ table, th, td{
 	padding: 5%;
 	width: 80%;
 	left:0;
+	font-size: 20px;
 	border-radius: 10px;
-	background: rgb(245,147,202);
+	background: linear-gradient(to bottom, #F593CA, #FCC8E5);
 }
 .commentSection{
 
@@ -233,12 +235,12 @@ table, th, td{
 	height: 35px;
 	width: 35px;
 	border-radius: 5px;
-	background: #E0469D;
+	background: #EC69B3;
 }
 #commentArea1,#commentArea2,#commentArea3{
 	width: 660px;
 	width: 50%;
-	background: #EC69B3;
+	background: #F593CA;
 }
 #comments1,#comments2,#comments3{
 	margin-left:35px;
@@ -248,14 +250,16 @@ table, th, td{
 }
 #commenter1{
 	position:relative;
-	font-size: 15px;
+	font-size: 18px;
 	text-align: left;
+	font-family: "Calibri";
 	background: linear-gradient(to bottom, rgba(0,0,255,0.1), rgba(0,0,255,0.3));
 }
 #commenter2{
 	position:relative;
-	font-size: 15px;
+	font-size: 18px;
 	text-align: right;
+	font-family: "Calibri";
 	background: linear-gradient(to bottom, rgba(255,0,0,0.1), rgba(255,0,0,0.3));
 }
 #commentInput{
@@ -269,6 +273,8 @@ table, th, td{
 textarea{
   padding : 10px;
   left:0;
+  font-family: "Calibri";
+  font-size: 20px;
   width: 95%;
   height: 150px;
 }
