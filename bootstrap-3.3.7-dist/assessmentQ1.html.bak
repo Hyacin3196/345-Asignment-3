@@ -57,7 +57,7 @@
 						<div id="commenter2">
 							<b>Jason Bourne</b>
 							<br/>
-						nice answer
+							this is a comment, pls reply
 						</div>
 					</div>
 					<div id="commentInput">
@@ -81,11 +81,10 @@
 					<img class="commentIcon" src="images/comment icon.png" alt="CommentIcon" onclick="toggleComments1()"/>
 					<div id="commentArea1">
 					<div id="comments">
-					<h3>Comments</h3>
 						<div id="commenter2">
 							<b>Jason Bourne</b>
 							<br/>
-						lol thats wicked
+							I like my comments
 						</div>
 					</div>
 					<div id="commentInput">

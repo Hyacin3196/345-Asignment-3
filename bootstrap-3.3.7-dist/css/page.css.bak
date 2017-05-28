@@ -183,6 +183,7 @@ img.searchIcon{
 .question{
 	float:left;
 	padding: 1%;
+	width: 80%;
 	left:0;
 	border-radius: 10px;
 	background: rgb(245,147,202);
@@ -190,7 +191,7 @@ img.searchIcon{
 .commentSection{
 
 	display:inline;
-	width: 95%;
+	width: 100%;
 }
 .commentIcon{
 	float:left;
@@ -201,15 +202,18 @@ img.searchIcon{
 }
 #commentArea{
 	width: 660px;
+	width: 50%;
 	background: #EC69B3;
 }
 #commentArea1{
 	width: 660px;
+	width: 50%;
 	background: #EC69B3;
 }
 #comments{
 	margin-left:35px;
-	width: 600px;
+	width: 610px;
+	width: 90%;
 	padding: 5px;
 }
 #commenter1{
@@ -227,6 +231,7 @@ img.searchIcon{
 #commentInput{
 	margin-left:40px;
 	width:625px;
+	width: 90%;
 }
 #input{
 	height:20px;
