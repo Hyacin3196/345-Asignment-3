@@ -35,8 +35,10 @@
 	<body>
 
 		<div class="main">
-			<a href="#">Home</a> > 
-			<a href="#">Assessment</a>
+			
+			<a href="sauce.html">Home</a> > 
+			<a href="assessment.html">Assessment</a> >
+			<a href="peerAssessmentQ1.html">Peer Review</a>
 			
 			<p>Your User Name's attempt</p>
 			<div class="blocks">
@@ -121,7 +123,7 @@
 		<div class="top">
 			<img src="images/Logo/Logo2.png" alt="Logo" usemap="logomap" style="width:200px;height:80px;margin-left:60px"/>
 			<map name="logomap">
-				<area shape="rect" coords="0,0,200,80" alt="Logo" href="https://www.w3schools.com/html/html_images.asp"/>
+				<area shape="rect" coords="0,0,200,80" alt="Logo" href="sauce.html"/>
 			</map>
 
 			<div class="searchBar">

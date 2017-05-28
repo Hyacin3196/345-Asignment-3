@@ -157,8 +157,8 @@ img.searchIcon{
 }
 .displayImg{
 	float: right;
-	height:200px;
-	width:200px;
+	height:150px;
+	width:150px;
 }
 /*Pages Section*/
 .wrap{
@@ -196,6 +196,7 @@ img.searchIcon{
 	font-family:"Times New Roman", cursive, sans-serif;
 	font-weight: bold;
 	font-size:20px;
+	background: rgba(0,0,0,0.1);
 }
 .centerBtn:hover{
 	background: rgba(0,0,0,0.2);

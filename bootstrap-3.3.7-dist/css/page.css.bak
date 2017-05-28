@@ -190,13 +190,13 @@ img.searchIcon{
 	background: rgb(245,147,202);
 }
 .centerBtn{
-	left: 300px;
 	height:60px;
 	line-height: 60px;
 	text-align: center;
 	font-family:"Times New Roman", cursive, sans-serif;
 	font-weight: bold;
 	font-size:20px;
+	background: rgba(0,0,0,0.1);
 }
 .centerBtn:hover{
 	background: rgba(0,0,0,0.2);

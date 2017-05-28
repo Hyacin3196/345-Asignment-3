@@ -35,8 +35,10 @@
 	<body>
 
 		<div class="main">
-			<a href="#">Home</a> > 
-			<a href="#">Assessment</a>
+			
+			<a href="sauce.html">Home</a> > 
+			<a href="assessment.html">Assessment</a> >
+			<a href="assessmentQ1.html">Quiz Attempt</a>
 			
 			<p>Your User Name's attempt</p>
 			<div class="blocks">
@@ -52,23 +54,6 @@
 					<p>
 					a) Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem.
 				</p>
-				<div class="commentSection">
-					<img class="commentIcon" src="images/comment icon.png" alt="CommentIcon" onclick="toggleComments()"/>
-					<div id="commentArea">
-					<div id="comments">
-						<div id="commenter2">
-							<b>Jason Bourne</b>
-							<br/>
-							this is a comment, pls reply
-						</div>
-					</div>
-					<div id="commentInput">
-						<textarea id="input">
-						</textarea>
-						<button id="append">Comment</button>
-					</div>
-					</div>
-				</div>
 
 				<textarea>Omnicos directe al desirabilite de un nov lingua franca: On refusa continuar payar custosi traductores. At solmen va esser necessi far uniform grammatica, pronunciation e plu sommun paroles. Ma quande lingues coalesce, li grammatica del resultant lingue es plu simplic e regulari quam ti del coalescent lingues.
 				</textarea>
@@ -79,26 +64,12 @@
 					<p>
 					Nam libero tempore, cum soluta nobis est eligendi optio cumque nihil impedit quo minus id quod maxime placeat facere possimus, omnis voluptas assumenda est, omnis dolor repellendus. Temporibus autem quibusdam et aut officiis debitis aut rerum necessitatibus saepe eveniet ut et voluptates repudiandae sint et molestiae non recusandae. Itaque earum rerum hic tenetur a sapiente delectus, ut aut reiciendis voluptatibus maiores alias consequatur aut perferendis doloribus asperiores repellat. Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo.
 				</p>
-				<div class="commentSection">
-					<img class="commentIcon" src="images/comment icon.png" alt="CommentIcon" onclick="toggleComments1()"/>
-					<div id="commentArea1">
-					<div id="comments">
-						<div id="commenter2">
-							<b>Jason Bourne</b>
-							<br/>
-							I like my comments
-						</div>
-					</div>
-					<div id="commentInput">
-						<textarea id="input">
-						</textarea>
-						<button id="append">Comment</button>
-					</div>
-					</div>
-				</div>
 
 				<textarea>Li Europan lingues es membres del sam familie. Lor separat existentie es un myth. Por scientie, musica, sport etc, litot Europa usa li sam vocabular. Li lingues differe solmen in li grammatica, li pronunciation e li plu commun vocabules.
 				</textarea>
+				<a class="centerBtn" href="assessmentQ1.html">
+					<div class="centerBtn"> <p>Next</p> </div>
+				</a>
 			</div>
 		</div>
 

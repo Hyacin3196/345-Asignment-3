@@ -39,8 +39,9 @@
 
 		<div class="main">
 			<!-- Orientation Links -->
-			<a href="#">Home</a> > 
-			<a href="#">Pages</a>
+			
+			<a href="sauce.html"><p>Home</p></a> > 
+			<a href="pages.html"><p>Pages</p></a>
 
 			<div class="blocks">
 				<h1> Pages </h1>
@@ -121,7 +122,7 @@
 		<div class="top">
 			<img src="images/Logo/Logo2.png" alt="Logo" usemap="logomap" style="width:200px;height:80px;margin-left:60px"/>
 			<map name="logomap">
-				<area shape="rect" coords="0,0,200,80" alt="Logo" href="https://www.w3schools.com/html/html_images.asp"/>
+				<area shape="rect" coords="0,0,200,80" alt="Logo" href="sauce.html"/>
 			</map>
 
 			<div class="searchBar">
