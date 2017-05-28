@@ -212,6 +212,12 @@ table, th, td{
 	border:1px solid black;
 	border-collapse:collapse;
 }
+th{
+	 background: #EC69B3;
+}
+td{
+	 background: #F593CA;
+}
 
 /*Answer Assessment*/
 

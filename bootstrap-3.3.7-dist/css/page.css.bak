@@ -250,16 +250,16 @@ table, th, td{
 }
 #commenter1{
 	position:relative;
-	font-size: 15px;
+	font-size: 18px;
 	text-align: left;
-  font-family: "Calibri";
+	font-family: "Calibri";
 	background: linear-gradient(to bottom, rgba(0,0,255,0.1), rgba(0,0,255,0.3));
 }
 #commenter2{
 	position:relative;
-	font-size: 15px;
+	font-size: 18px;
 	text-align: right;
-  font-family: "Calibri";
+	font-family: "Calibri";
 	background: linear-gradient(to bottom, rgba(255,0,0,0.1), rgba(255,0,0,0.3));
 }
 #commentInput{
